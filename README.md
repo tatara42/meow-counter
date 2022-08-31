@@ -1,3 +1,3 @@
 # meow-counter
 
-## This project is created by learning from scrimba
+## This project is created from scrimba
