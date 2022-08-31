@@ -1,0 +1,85 @@
+body {
+    background-image: url("cat.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.border {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: rgba(107, 62, 17, 0.3);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: white;
+    color: black;
+    transition: 0.15s;
+}
+
+#increment-btn:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+#save-btn {
+    background: white;
+    color: green;
+
+    transition: 0.15s;
+    
+}
+
+#save-btn:hover {
+    cursor: pointer;
+    color: white;
+    background: green;
+
+}
+
+#save-el {
+    font-weight: bold;
+}
+
