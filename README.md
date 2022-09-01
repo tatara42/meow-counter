@@ -1,3 +1,3 @@
 # meow-counter
 
-## This project is created from scrimba
+## This project is from scrimba (Javascript for beginner)
